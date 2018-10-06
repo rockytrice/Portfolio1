@@ -91,13 +91,14 @@ opacity: 0
 .item-3
 {
     min-height: 60vh;
+    clip-path: polygon(0 0, 100% 0,100% 85%, 0 95%)
 }
 .item-1{
-    background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(images/coding.jpeg)center/cover fixed no-repeat;
+    background: linear-gradient(to right, rgba(68,68,68,0.2),rgba(198,196,196,0.5)),url(images/coding.jpeg)center/cover fixed no-repeat;
 }
 
 .item-2{
-    background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(https://i.ytimg.com/vi/GlAdXlK0x_U/maxresdefault.jpg);
+    background: linear-gradient(to right, rgba(68,68,68,0.2),rgba(198,196,196,0.5)),url(https://i.ytimg.com/vi/GlAdXlK0x_U/maxresdefault.jpg);
     /* center/cover fixed no-repeat; */
    
     background-position: center center;
@@ -106,7 +107,7 @@ opacity: 0
 }
 
 .item-3{
-    background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(images/mountain2.jpg)center/cover fixed no-repeat;
+    background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/mountain2.jpg)center/cover fixed no-repeat;
 }
 
 
@@ -114,6 +115,23 @@ opacity: 0
     padding: 0;
 }
 
+.banner-btn{
+    color: #fffffa;
+    border: 2px solid #fffffa;
+    transition: all 1s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.banner-btn:hover{
+    color: #605F5E;
+    background: #fffffa;
+    transform: translateY(-7px);
+    box-shadow: 0 5px 20px  rgba(0,0,0,0.7);
+}
+
+
+
+
+/* media query max-width 600========================================================================== */
 @media only screen and (max-width: 600px) {
     .item-2{
         background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(images/slask.jpeg);
