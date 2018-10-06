@@ -123,8 +123,8 @@ opacity: 0
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .mb-2{
-        margin-bottom: -1.1rem!important;
+    .carousel-caption{
+        bottom: -60px;
     }
 }
 
