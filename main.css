@@ -7,5 +7,10 @@ body {
 }
 .icon-top a{
     color: white;
-    font-size: 25px
+    font-size: 25px;
+    transition: color 1s ease-in-out;
+
+}
+.icon-top a:hover{
+    color: black;
 }
