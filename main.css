@@ -1,0 +1,11 @@
+body {
+    font-family: 'Kalam', cursive;
+    background: white;
+}
+.icon-top{
+    background: #605F5E
+}
+.icon-top a{
+    color: white;
+    font-size: 25px
+}
