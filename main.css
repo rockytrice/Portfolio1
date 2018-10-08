@@ -141,8 +141,37 @@ opacity: 0
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .item-3{
+        background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/narrows.jpg)center/cover fixed no-repeat;
+    }
     .carousel-caption{
         bottom: -60px;
     }
 }
+
+/* title==================================================== */
+
+.title h1{
+    color:#242424;
+}
+.title h3{
+    color: #5a5a5a;
+}
+.title-underline{
+    height: 5px;
+    width: 250px;
+    background: #605F5E;
+    margin: -28px auto 0 auto;
+}
+
+.title a{
+   color:  #605F5E;
+   font-size: 30px;
+   padding: 0 10px;
+   display: inline-block;
+   background: white;
+}
+
+/* skills ======================================================*/
+
 
