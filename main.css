@@ -174,4 +174,45 @@ opacity: 0
 
 /* skills ======================================================*/
 
+.skills-icon {
+    background: #242424;
+    transition: all 1s ease;
+    clip-path: polygon(0 0,50% 0, 100% 100%,0 100%);
+    
+}
+.skills-icon:hover{
+    background: #605F5E;
+}
 
+.skills-icon span{
+    transition: all 1s ease-in-out;
+}
+.skills-icon span:hover{
+color: white;
+}
+
+
+/* about section=========================================== */
+#about{
+    min-height: 40vh;
+    background: #909090;
+    clip-path: polygon(0 0,100% 10%,100% 100%,0 90%);
+}
+
+/* video-filler============================================= */
+#modal-filler{
+    min-height: 56vh;
+    background:linear-gradient(to right, rgba(68,68,68,0.7),rgba(198,196,196,0.5)), url(images/DSC_1615.jpg)center/cover
+    fixed no-repeat;
+}
+#modal-filler a{
+    color: #242424;
+    font-size: 80px;
+    animation: myAnimation 5s ease infinite
+}
+@keyframes myAnimation{
+    50%{
+        transform: scale(1.5);
+        color: red;
+    }
+}
