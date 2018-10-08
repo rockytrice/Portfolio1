@@ -147,6 +147,12 @@ opacity: 0
     .carousel-caption{
         bottom: -60px;
     }
+    .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        font-size: 15px;
+    }
+    .btn-group>.btn:not(:first-child) {
+        font-size: 15px;
+    }
 }
 
 /* title==================================================== */
