@@ -1,6 +1,7 @@
 body {
     font-family: 'Kalam', cursive;
     background: white;
+    overflow-x:hidden;
 }
 .icon-top{
     background: #605F5E
@@ -132,7 +133,7 @@ opacity: 0
 
 
 /* media query max-width 600========================================================================== */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 753px) {
     .item-2{
         background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(images/slask.jpeg);
         /* center/cover fixed no-repeat; */
@@ -148,13 +149,23 @@ opacity: 0
         bottom: -60px;
     }
     .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        font-size: 10px;
+    }
+    .btn-group>.btn:not(:first-child) {
+        font-size: 9px;
+    }
+    
+}
+
+@media only screen and (width: 766px) {
+    .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
         font-size: 15px;
     }
     .btn-group>.btn:not(:first-child) {
         font-size: 15px;
     }
+    
 }
-
 /* title==================================================== */
 
 .title h1{
@@ -204,7 +215,9 @@ color: white;
     background: #909090;
     clip-path: polygon(0 0,100% 10%,100% 100%,0 90%);
 }
-
+.blockquote-footer{
+    background: transparent
+}
 /* video-filler============================================= */
 #modal-filler{
     min-height: 56vh;
@@ -219,7 +232,7 @@ color: white;
 @keyframes myAnimation{
     50%{
         transform: scale(1.5);
-        color: red;
+        color:#f1fffa;
     }
 }
 
@@ -380,4 +393,20 @@ color: #f1fffa;
 .contact-icon{
     color: #605F5E;
     font-size: 30px;
+}
+/* footer====================================================== */
+footer {
+    background: #242424;
+}
+.footer-icons a{
+    color:#605F5E;
+    font-size: 25px;
+    transition: color 1s ease;
+}
+.footer-icons a:hover{
+color: #f1fffa;
+}
+footer h5{
+    color: #f1fffa;
+
 }
