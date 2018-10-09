@@ -339,6 +339,27 @@ transform: scale(1.3);
     position: relative;
     transition: all 2s ease;
 }
+.value-number{
+    padding: 15px;
+    background: #605F5E;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 20px;
+    top: -12%;
+    left: 57%;
+    transition: all 2s ease;
+    color: #242424;
+}
+.value:hover .value-icon{
+    background: #605F5E;
+    transform: scale(1.2);
+}
+.value:hover .value-number{
+    background: #242424;
+    color: #f1fffa;
+    transform: scale(0.9);
+}
 
 
 
