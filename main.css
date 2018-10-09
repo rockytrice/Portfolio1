@@ -233,3 +233,37 @@ color: white;
 #projects button:hover{
     background: #242424;
 }
+.img-container{
+    position: relative;
+    overflow:hidden;
+    background: linear-gradient(rgba(242, 242, 242,0.9),rgba(242, 242, 242,0.5))
+}
+.img-container img{
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+.img-container:hover .project-image{
+    opacity: 0.3;
+    transform: scale(1.3)
+}
+
+.search-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #605F5E;
+    transition: margin 2s ease-in-out, color 0.5s ease-in-out, opacity 0.75s ease-in-out;
+    margin-top: -50%;
+    opacity: 0;
+}
+.img-container:hover .search-link{
+margin-top: 0;
+opacity: 1;    
+transform: scale(1.3);
+}
+
+.search-link:hover{
+    color: #242424;
+}
