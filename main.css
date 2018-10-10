@@ -99,7 +99,7 @@ opacity: 0
 }
 
 .item-2{
-    background: linear-gradient(to right, rgba(68,68,68,0.2),rgba(198,196,196,0.5)),url(https://i.ytimg.com/vi/GlAdXlK0x_U/maxresdefault.jpg);
+    background: linear-gradient(to right, rgba(68,68,68,0.2),rgba(198,196,196,0.5)),url(images/rocky-game-winner.jpg);
     /* center/cover fixed no-repeat; */
    
     background-position: center center;
