@@ -179,7 +179,7 @@ body {
         height: 100%;
         z-index: -10;
         min-height: 56vh;
-        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg) no-repeat center center;
+        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg) no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
