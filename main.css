@@ -165,10 +165,11 @@ opacity: 0
         font-size: 9px;
     }
     #modal-filler{
+        background-attachment: initial;
         min-height: 56vh;
         background:linear-gradient(to right, rgba(68,68,68,0.7),rgba(198,196,196,0.5)), url(images/DSC_1615.jpg);
         background-position: center;
-        background-size: cover;
+        -webkit-background-size: cover;
         background-repeat: no-repeat;
     }
 }
