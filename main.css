@@ -166,6 +166,11 @@ opacity: 0
     }
     
 }
+@media only screen and (max-width: 400px){
+    .item-3{
+        background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/narrows.jpg)center/cover fixed no-repeat;
+    }
+}
 /* title==================================================== */
 
 .title h1{
