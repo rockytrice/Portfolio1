@@ -171,7 +171,6 @@ body {
         font-size: 9px;
     }
     #modal-filler:before {
-        content: "";
         display: block;
         position: fixed;
         left: 0;
