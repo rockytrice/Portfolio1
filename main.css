@@ -170,13 +170,9 @@ body {
     .btn-group>.btn:not(:first-child) {
         font-size: 9px;
     }
-    #modal-filler:before {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: -10;
+    #modal-filler {
         min-height: 56vh;
-        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg) no-repeat center;
+        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
