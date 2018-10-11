@@ -134,6 +134,13 @@ opacity: 0
 
 /* media query max-width 600========================================================================== */
 @media only screen and (max-width: 753px) {
+    .item-1{
+        background: linear-gradient(to right, rgba(68,68,68,0.2),rgba(198,196,196,0.5)),url(images/coding.jpeg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
     .item-2{
         background: linear-gradient(to right, rgba(68,68,68,0.9),rgba(198,196,196,0.5)),url(images/slask.jpeg);
         /* center/cover fixed no-repeat; */
@@ -143,7 +150,10 @@ opacity: 0
         background-repeat: no-repeat;
     }
     .item-3{
-        background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/narrows.jpg)center/cover fixed no-repeat;
+        background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/narrows.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .carousel-caption{
         bottom: -60px;
@@ -166,11 +176,7 @@ opacity: 0
     }
     
 }
-@media only screen and (max-width: 400px){
-    .item-3{
-        background: linear-gradient(to right, rgba(68,68,68,0.1),rgba(198,196,196,0.5)),url(images/narrows.jpg)center/cover fixed no-repeat;
-    }
-}
+
 /* title==================================================== */
 
 .title h1{
