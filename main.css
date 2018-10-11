@@ -172,17 +172,20 @@ body {
     }
     #modal-filler {
         min-height: 56vh;
-        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg);    
-        background-position: center fixed;
+        background: linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(198, 196, 196, 0.5)), url(images/DSC_1615.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
-        background-repeat: no-repeat;
-        
-          };
-    
-    #contact-form {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mountain3.jpg)center/cover fixed no-repeat;
-        -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
     }
+}
+
+;
+#contact-form {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mountain3.jpg)center/cover fixed no-repeat;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
+
 }
 
 @media only screen and (width: 766px) {
