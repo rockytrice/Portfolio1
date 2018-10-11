@@ -175,7 +175,7 @@ body {
         background: #909090;
         -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
     }
-    #modal-filler: {
+    #modal-filler:before {
         content: "";
         display: block;
         position: fixed;
