@@ -175,7 +175,7 @@ body {
         background: #909090;
         -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
     }
-    #modal-filler:before {
+    #modal-filler: {
         content: "";
         display: block;
         position: fixed;
@@ -191,7 +191,7 @@ body {
         -o-background-size: cover;
         background-size: cover;
     }
-    #contact-form:before {
+    #contact-form::before {
         content: "";
         display: block;
         position: fixed;
