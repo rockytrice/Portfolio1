@@ -169,6 +169,7 @@ body {
     }
     .btn-group>.btn:not(:first-child) {
         font-size: 9px;
+        margin-left: -19px
     }
     #about {
         min-height: 40vh;
