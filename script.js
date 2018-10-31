@@ -17,7 +17,7 @@ $(window).scroll(function(){
         }
  })
     // smooth scroll
-    $(".nav-item a").click(function(link){
+    $(".nav-item a").click("touchstart",function(link){
         link.preventDefault();
         let target = $(this).attr("href");
         $("html, body").stop().animate({
@@ -30,7 +30,7 @@ $(window).scroll(function(){
     // options
   });
   // filter items on button click
-  $('.filter-button-group').on( 'click', 'button', function() {
+  $('.filter-button-group').on( 'click touchstart', 'button', function() {
     let filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
   });
