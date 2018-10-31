@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // navbar-toggler
-    $(".navbar-toggler").click(function () {
+    $(".navbar-toggler").click("touchstart",function () {
         $(".navbar-toggler").toggleClass("change");
     })
 
