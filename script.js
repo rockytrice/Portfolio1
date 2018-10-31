@@ -30,7 +30,7 @@ $(window).scroll(function(){
     // options
   });
   // filter items on button click
-  $('.filter-button-group').on( 'click touchstart', 'button', function() {
+  $('.filter-button-group').on( "touchstart click", "button", function() {
     let filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
   });
