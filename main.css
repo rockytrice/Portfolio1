@@ -311,6 +311,10 @@ body {
     background: #242424;
 }
 
+#projects button:active {
+    outline: none;
+}
+
 .img-container {
     position: relative;
     overflow: hidden;
@@ -480,10 +484,12 @@ footer {
     color: #605F5E;
     font-size: 25px;
     transition: color 1s ease;
+
 }
 
 .footer-icons a:hover {
     color: #f1fffa;
+    text-decoration: none;
 }
 
 footer h5 {
